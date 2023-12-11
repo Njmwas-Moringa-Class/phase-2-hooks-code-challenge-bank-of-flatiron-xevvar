@@ -83,6 +83,34 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2023-12-14",
+      "description": "Bike riding with mesh",
+      "category": "entertainment",
+      "amount": "-5",
+      "id": 13
+    },
+    {
+      "date": "2023-12-21",
+      "description": "football attendance",
+      "category": "entertainment",
+      "amount": "-9",
+      "id": 14
+    },
+    {
+      "date": "2023-12-28",
+      "description": "date with my girl",
+      "category": "love",
+      "amount": "-17",
+      "id": 15
+    },
+    {
+      "date": "2023-12-16",
+      "description": "football ",
+      "category": "entertainment",
+      "amount": "-90",
+      "id": 16
     }
   ]
 }
