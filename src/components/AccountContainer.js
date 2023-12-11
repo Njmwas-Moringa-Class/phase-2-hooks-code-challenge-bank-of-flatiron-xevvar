@@ -37,7 +37,7 @@ function AccountContainer() {
     <div>
       <Search onSearch={handleSearch} searchTerm={searchTerm}/>
       <AddTransactionForm onAddTransaction={handleAddTransaction}/>
-      <TransactionsList transactions={filteredTransactions}/>
+      <TransactionsList newTransactions={filteredTransactions}/>
     </div>
   );
 }

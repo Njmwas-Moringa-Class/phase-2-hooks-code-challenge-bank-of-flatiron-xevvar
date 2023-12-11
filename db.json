@@ -111,6 +111,55 @@
       "category": "entertainment",
       "amount": "-90",
       "id": 16
+    },
+    {
+      "date": "2023-12-02",
+      "description": "picnic at Karura",
+      "category": "Hike",
+      "amount": "-1",
+      "id": 17
+    },
+    {
+      "date": "2023-12-01",
+      "description": "football match",
+      "category": "love",
+      "amount": "-9",
+      "id": 18
+    },
+    {
+      "date": "2023-12-26",
+      "description": "new trial",
+      "category": "try",
+      "amount": "-2",
+      "id": 19
+    },
+    {
+      "date": "2023-12-23",
+      "description": "again",
+      "category": "again",
+      "amount": "-7",
+      "id": 20
+    },
+    {
+      "date": "2023-12-01",
+      "description": "try again",
+      "category": "aga aga",
+      "amount": "-7",
+      "id": 21
+    },
+    {
+      "date": "",
+      "description": "try again 2",
+      "category": "aga aga aga",
+      "amount": 0,
+      "id": 22
+    },
+    {
+      "date": "2023-12-16",
+      "description": "football attendance",
+      "category": "love",
+      "amount": "0",
+      "id": 23
     }
   ]
 }

@@ -21,12 +21,7 @@ function AddTransactionForm({ onAddTransaction }) {
 
     onAddTransaction(transaction);
 
-    setTransaction({
-      date: "",
-      description: "",
-      category: "",
-      amount: 0,
-    });
+    event.target.reset()
   };
 
 
@@ -40,7 +35,7 @@ function AddTransactionForm({ onAddTransaction }) {
           <input type="text" name="category" placeholder="Category" onChange={handleInputChange}/>
           <input type="number" name="amount" placeholder="Amount" step="0.01" onChange={handleInputChange}/>
         </div>
-        <button className="ui button" type="submit" onSubmit={handleSubmit}>
+        <button className="ui button" type="submit" >
           Add Transaction
         </button>
       </form>

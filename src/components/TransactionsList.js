@@ -1,14 +1,22 @@
 import React,{useState , useEffect} from "react";
 import Transaction from "./Transaction";
 
-function TransactionsList() {
+function TransactionsList({newTransactions}) {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:8001/transactions")
       .then((response) => response.json())
       .then((data) => setTransactions(data))
-  }, []);
+  }, [newTransactions]);
+
+  // useEffect(() => {
+  //   setTransactions((prevTransactions) => [...prevTransactions, ...newTransactions]);
+  // }, [newTransactions]);
+
+  // const mergedTransactions = [ ...transactions,...newTransactions];
+
+
 
 
   return (
